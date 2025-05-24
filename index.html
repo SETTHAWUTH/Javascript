@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+ <p id = "demo">This is paragraph</p>
+ <button type="button" onclick="MyFunction();"> Change content</button>
+ 
+ <script>
+    document.write("Hello Js")
+    alert("welcome to my website");
+    function MyFunction(){
+        document.getElementById("demo").innerHTML =" Hello haha"
+    }
+    console.log("Hello from console");
+ </script>
+     
+
+
+<!--Java variable-->
+<script> 
+    // auto variable 
+    x=5;
+    y=10;
+    z=x+y;
+    console.log(z);
+     // Var variable 
+    var x1=5;
+    var y1=20;
+    z1=x1+y1;
+    console.log(z1);
+
+    // let variable 
+    let x2=5;
+    let y2=25;
+    let z2=x2+y2;
+    console.log(z2);
+     // const variable ไม่สามารถ ประกาศชื่อ ซ้ำได้
+    const a=5;
+    const b=25;
+    const c=a+b;
+    console.log(c);
+
+</script>
+<script> 
+    // auto variable 
+    x=5;
+    y=10;
+    z=x+y;
+    console.log(z);
+     // Var variable 
+    var x1=5;
+    var y1=20;
+    z1=x1+y1;
+    console.log(z1);
+
+    // let variable 
+    let x3=5;
+    let y3=25;
+    let z3=x2+y2;
+    console.log(z2);
+     // const variable ไม่สามารถ ประกาศชื่อ ซ้ำได้
+    const a1=5;
+    const b1=25;
+    const c1=a+b;
+    console.log(c);
+
+</script>
+
+
+<script>
+
+    // Numbers 
+    let length = 200;
+    let weight = 10.5;
+
+    //String 
+    let car ="Mazda";
+    let name = "earth";
+
+    //Boolean 
+    let isFalse = false;
+    let isTrue = true;
+
+
+    // object 
+    const person ={
+        firstName : "Earth",
+        LastName : " YIYI"
+    };
+
+    //Array 
+    const cars=[ "honda", "toyota","nissan"];
+
+
+    //undefined ตัวเเปรไม่มีค่า 
+     let x ;
+    console.log(typeof x); 
+
+    // BigInt ตัวเลขเยอะมากๆ ห้ามใข้ทศนิยม ไม่มี operator
+    let BigInt = BigInt("232132132132132132132132131313"); 
+    
+    // Symbol  value to unique
+    const sym1 = Symbol("Symbol1");
+    const sym2 = Symbol("Symbol1");
+    console.log(sym1 === sym2);
+
+    // Null 
+    let age = null;
+
+
+     // Function in java
+     function MyFunction(num1, num2){
+        return num1*num2;
+     }
+
+     let sum = MyFunction(10, 150);
+     console.log(sum);
+
+
+
+    
+</script>
+
+
+
+</body>
+</html>
